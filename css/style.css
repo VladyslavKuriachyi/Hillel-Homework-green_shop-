@@ -325,5 +325,81 @@ span {
     text-decoration: none;
 }
 
+.container-all {
+    display: flex;
+    justify-content: space-between;
+}
+.left-side {
+    max-width: 310px;
+    margin: 171px 50px 207px 85px ;
+    background: #FBFBFB;
 
+
+}
+.right-side {
+    max-width: 840px;
+    margin: 171px 107px 82px 0 ;
+
+
+}
+.right-side-nv {
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-side-nv ul {
+    display: flex;
+    gap: 37px;
+}
+ ul  li  {
+    list-style-type: none;
+     padding-bottom: 10px;
+}
+ ul  li a {
+     text-decoration: none;
+     color: #3d3d3d;
+ }
+.sale {
+  padding: 150px 0;
+}
+.container-shop{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom:90px ;
+
+}
+.shop {
+    max-width: 258px;
+}
+span{
+    display:block;
+
+}
+
+img {
+    width: 100%;
+}
+.foot {
+  max-width: 840px;
+}
+.page {
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+}
+.number {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+
+}
+.number img {
+    width: 15px;
+    height: 15px;
+}
 
