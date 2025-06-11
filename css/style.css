@@ -396,7 +396,9 @@ span {
     color: #fff;
     text-decoration: none;
 }
-
+.features {
+    margin-top: 30px;
+}
 .container-all {
     display: flex;
     justify-content: space-between;
@@ -410,9 +412,11 @@ span {
 
 
 
+
 }
 .right-side {
     max-width: 840px;
+
 
 
 }
@@ -499,6 +503,7 @@ span {
 }
 .first-img:hover ul {
     bottom: 65px;
+    left: 0;
 }
 .shop span{
     display:block;
