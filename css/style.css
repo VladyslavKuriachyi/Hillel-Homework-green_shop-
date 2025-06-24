@@ -55,6 +55,7 @@
     color: #3D3D3D;
 }
 
+
  /*.container {
     display: flex;
 justify-content: center;
@@ -1154,7 +1155,6 @@ h2 {
     display: flex;
     justify-content: space-around;
     gap: 187px;
-    margin-bottom: 400px;
 
 }
 .media  ul li {
