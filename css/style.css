@@ -67,13 +67,17 @@
     justify-content: center;
     align-items: center;
     z-index: 99;
+    overflow: hidden;
+   animation: hidePreload 4s forwards;
+    transition: opacity 0.5s ease;
 }
 .preload div {
     color: #18B5DC;
     transform: rotate(180deg);
     position: absolute;
     opacity: 0;
-    animation: move 3s linear infinite;
+    animation: move 3s linear 1;
+    animation-fill-mode: forwards;
 }
 .preload div:nth-child(2) {
     animation-delay: 0.2s;
@@ -118,6 +122,21 @@
         visibility: hidden;
         left: 100%;
         transform: rotate(-180deg);
+
+    }
+}
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    90% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
     }
 }
 
